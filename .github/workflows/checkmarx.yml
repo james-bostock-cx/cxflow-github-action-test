@@ -42,6 +42,7 @@ jobs:
         checkmarx_url: ${{ secrets.CHECKMARX_URL }}
         checkmarx_username: ${{ secrets.CHECKMARX_USERNAME }}
         checkmarx_password: ${{ secrets.CHECKMARX_PASSWORD }}
+        checkmarx_client_secret: ${{ secrets.CHECKMARX_CLIENT_SECRET }}
         scanners: sast
         params: >-
           --namespace=${{ github.repository_owner }}
