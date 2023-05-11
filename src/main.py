@@ -1,3 +1,4 @@
+# A simple script with some security vulnerabilities
 import os
 import sys
 import xml.sax
